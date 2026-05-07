@@ -1,0 +1,15 @@
+<html><head><style>
+    body { font-family: sans-serif; display: flex; margin: 0; background: #f4f7f6; }
+    .sidebar { width: 220px; height: 100vh; background: #003366; color: white; padding: 20px; }
+    .main { flex: 1; padding: 40px; }
+    .sidebar a { color: white; text-decoration: none; display: block; padding: 15px 0; border-bottom: 1px solid #004d99; }
+    .card { background: white; padding: 20px; border-radius: 10px; margin-bottom: 10px; border-left: 5px solid green; }
+</style></head>
+<body>
+    <div class="sidebar"><h2>VDC BANK</h2><a href="/dashboard">Dashboard</a><a href="/transactions">Transactions</a><a href="/transfer">Transfer</a><a href="/settings"><b>Settings</b></a><hr><a href="/">Logout</a></div>
+    <div class="main"><h1>Security Control Center</h1>
+    <div class="card"><h3>Snort IDS Status: <span style="color:green">MONITORING</span></h3></div>
+    <div class="card"><h3>pfSense Firewall: <span style="color:green">CONNECTED</span></h3></div>
+    <div class="card"><h3>Database Encryption: <span style="color:orange">AES-256 (Simulated)</span></h3></div>
+    </div>
+</body></html>

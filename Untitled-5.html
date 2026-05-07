@@ -1,0 +1,14 @@
+<html><head><style>
+    body { font-family: sans-serif; display: flex; margin: 0; background: #f4f7f6; }
+    .sidebar { width: 220px; height: 100vh; background: #003366; color: white; padding: 20px; }
+    .main { flex: 1; padding: 40px; }
+    .sidebar a { color: white; text-decoration: none; display: block; padding: 15px 0; border-bottom: 1px solid #004d99; }
+    input { display: block; width: 300px; padding: 10px; margin: 10px 0; }
+</style></head>
+<body>
+    <div class="sidebar"><h2>VDC BANK</h2><a href="/dashboard">Dashboard</a><a href="/transactions">Transactions</a><a href="/transfer"><b>Transfer</b></a><a href="/settings">Settings</a><hr><a href="/">Logout</a></div>
+    <div class="main"><h1>Send Money</h1><p>Internal VDC Transfer</p>
+    <input placeholder="Recipient Account No (VDC-XXXX)"><input placeholder="Amount ($)">
+    <button style="background:#003366; color:white; padding:10px 20px; border:none; cursor:pointer;">Transfer Funds</button>
+    </div>
+</body></html>

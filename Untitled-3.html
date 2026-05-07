@@ -1,0 +1,11 @@
+<html><head><style>
+    body { font-family: sans-serif; display: flex; margin: 0; background: #f4f7f6; }
+    .sidebar { width: 220px; height: 100vh; background: #003366; color: white; padding: 20px; }
+    .main { flex: 1; padding: 40px; }
+    .sidebar a { color: white; text-decoration: none; display: block; padding: 15px 0; border-bottom: 1px solid #004d99; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+</style></head>
+<body>
+    <div class="sidebar"><h2>VDC BANK</h2><a href="/dashboard"><b>Dashboard</b></a><a href="/transactions">Transactions</a><a href="/transfer">Transfer</a><a href="/settings">Settings</a><hr><a href="/">Logout</a></div>
+    <div class="main"><h1>Account Overview</h1><div class="card"><h3>Welcome, {{ session['user'] }}</h3><h2 style="color:green;">Available Balance: $ {{ session['bal'] }}</h2><p>Account No: {{ session['acc'] }}</p></div></div>
+</body></html>

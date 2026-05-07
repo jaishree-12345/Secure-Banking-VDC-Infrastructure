@@ -1,0 +1,16 @@
+<html><head><style>
+    body { font-family: sans-serif; display: flex; margin: 0; background: #f4f7f6; }
+    .sidebar { width: 220px; height: 100vh; background: #003366; color: white; padding: 20px; }
+    .main { flex: 1; padding: 40px; }
+    .sidebar a { color: white; text-decoration: none; display: block; padding: 15px 0; border-bottom: 1px solid #004d99; }
+    table { width: 100%; background: white; border-collapse: collapse; border-radius: 10px; overflow: hidden; }
+    th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; }
+</style></head>
+<body>
+    <div class="sidebar"><h2>VDC BANK</h2><a href="/dashboard">Dashboard</a><a href="/transactions"><b>Transactions</b></a><a href="/transfer">Transfer</a><a href="/settings">Settings</a><hr><a href="/">Logout</a></div>
+    <div class="main"><h1>Transaction History</h1>
+    <table><tr style="background:#eee;"><th>Date</th><th>Description</th><th>Amount</th><th>Status</th></tr>
+    <tr><td>May 07</td><td>ATM Cash Withdrawal</td><td style="color:red">-$200.00</td><td>Success</td></tr>
+    <tr><td>May 06</td><td>System Salary Credit</td><td style="color:green">+$4500.00</td><td>Success</td></tr>
+    </table></div>
+</body></html>
