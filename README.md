@@ -8,7 +8,9 @@ This project demonstrates the design of a virtualized banking infrastructure foc
 
 ## 🛡️ Security Architecture
 
+
 ![VDC Architecture](./VDC-Architecture.png)
+
 
 The infrastructure is segmented into three logical nodes:
 1. **Firewall Gateway (pfSense):** Acts as the perimeter defense, managing traffic flow between the internet and the internal secure network.
