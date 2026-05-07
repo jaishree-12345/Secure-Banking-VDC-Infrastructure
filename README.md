@@ -7,6 +7,7 @@ A multi-tier Secure Virtual Data Center for Banking with pfSense Firewall and Sn
 This project demonstrates the design of a virtualized banking infrastructure focused on high security and network isolation. The VDC is built using **Oracle VM VirtualBox** and features a three-tier architecture to protect sensitive financial data from unauthorized access.
 
 ## 🛡️ Security Architecture
+![VDC Architecture](./VDC-Architecture.png)
 The infrastructure is segmented into three logical nodes:
 1. **Firewall Gateway (pfSense):** Acts as the perimeter defense, managing traffic flow between the internet and the internal secure network.
 2. **Bank Vault Server (Ubuntu 22.04 LTS):** Hosts the banking microservices and an SQLite database.
